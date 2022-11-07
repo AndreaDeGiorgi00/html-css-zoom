@@ -4,3 +4,103 @@
     padding: 0;
     margin: 0;
 }
+
+/*generals*/
+
+header{
+    height: 20vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+main{
+    padding: 20vh 5vw;
+}
+
+
+.dx{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: white;
+    background-color: red;
+}
+/*comandi*/
+.lar-min{
+    width: 20%;
+}
+
+.lar-max{
+    width: 80%;
+}
+.flex{
+    display: flex;
+}
+
+
+/*main*/
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px -10px;
+    justify-content: space-between;
+}
+.column{
+    width: calc(100%/7 - 5px );
+    height: calc(60vh/4);
+    border: 1px dotted white;
+
+}
+
+.immagine{
+    width: 100%;
+    background-color: blue;
+    padding: 20px;
+    flex-grow: 0;
+    
+}
+
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: grey;
+    height: 20vh;
+    padding: 20px;   
+}
+
+.mif-vid{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 20%;
+    border: 1px dotted black;
+}
+
+.folder-center{
+    text-align: center;
+    
+    height: 100%;
+    width:80%;
+    border: 1px dotted black;
+}
+
+.fine-chiamata{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 20%;
+    border: 1px dotted black;
+}
+
+/*colors*/
+.bg-black{
+    background-color: black;
+}
+
