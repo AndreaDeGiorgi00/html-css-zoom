@@ -56,6 +56,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 
 }
@@ -92,55 +93,43 @@ img{
     left: 10px;
 }
 /*footer*/
-footer{
-    
-   position: relative;
-    background-color: grey;
-    height: 100px;
-    padding: 20px;   
-}
 
-.mif-vid{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100%;
-    width: 35%;
-    border: 1px dotted black;
+.f{
+    justify-content: space-between;
     align-items: center;
-    
+    height: 100px;
+    display: flex;
 
 }
 
-.folder-center{
-    text-align: center;
+.icons{
     
-    height: 100%;
-    width: 100%;
-    border: 1px dotted black;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    width:60% ;
 }
+.vid-mic , .fine-chiamata{
+    width: 15%;
+    height: 80%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 60%;
+
+}
+
 
 .fine-chiamata{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 20%;
+    background-color: rgb(42, 40, 40);
     height: 100%;
     text-align: center;
-    line-height: 100px;
-    background-color: rgb(60, 59, 59);
+    border: 0px;
+    cursor: pointer;
 }
-
-.accento{
-    height: 100%;
-
-}
-
-.mic{
-    height: 100%;
-    text-align: center;
-}
-
 /*colors*/
 .bg-black{
     background-color: black;
@@ -152,4 +141,8 @@ footer{
 
 .col-white{
     color: white;
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
