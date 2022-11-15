@@ -117,8 +117,10 @@ img{
     justify-content: center;
 }
 
+
+
 .icons{
-    width: 60%;
+    width: 55%;
 
 }
 
@@ -130,6 +132,12 @@ img{
     border: 0px;
     cursor: pointer;
 }
+.col-right{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /*colors*/
 .bg-black{
     background-color: black;
@@ -145,4 +153,7 @@ img{
 
 .bg-yellow{
     background-color: yellow;
+}
+.col-green{
+    color: green;
 }
